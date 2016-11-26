@@ -57,8 +57,7 @@ def list_length(my_list):
 
     """
     if my_list:
-        my_list.pop()
-        return list_length(my_list) + 1
+        return list_length(my_list[1:]) + 1
     else:
         return 0
 
