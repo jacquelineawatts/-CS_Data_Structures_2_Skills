@@ -1,0 +1,26 @@
+Discussion Questions
+
+Recursion
+
+1. In your own words, what is recursion?
+
+    A recursive function is a function that calls itself. Within a recursive function, recursive calls should be making progress toward a base case, a defined terminating scenario which does not use recursion (i.e. when you're on the last item in a list, or when you've reached the leaf of a tree).
+
+2. Why is it necessary to have a base case?
+
+    A base case, or degerative case, provides a way for the function to end. Without a base case the function would get stuck in infinite recursion loops.
+
+
+Graphs
+
+1. What is a graph?
+    
+    A graph is a flexible type of data structures which allows for the following relationships between nodes: direct or nondirected, cyclic or acyclic, 0 children or many children.
+
+2. How is a graph different from a tree?
+
+    A tree, by definition, cannot be cyclic, and any single node cannot have two parents. Whereas a graph is a more flexible data structure and can be cyclic. Every tree is also a graph, but every graph is not a tree. (This same relationship is true for linked lists.)
+
+3. Give an example of something that would be good to model with a graph.
+
+    Graphs are an appropriate data structure for most types of social networks, where there are many non-heirarchical relationships between users in the network and where cyclic relationships are in fact likely. 
